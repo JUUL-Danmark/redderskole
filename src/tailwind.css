@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: Open Sans, system-ui, sans-serif;
+    }
+    header {
+        min-height: calc(var(--vh, 1vh) * 100);
+    }
+    @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        src: local(''), url('../fonts/open-sans/open-sans-v29-latin-regular.woff2') format('woff2'), url('../fonts/open-sans/open-sans-v29-latin-regular.woff') format('woff');
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 500;
+        src: local(''), url('../fonts/open-sans/open-sans-v29-latin-500.woff2') format('woff2'), url('../fonts/open-sans/open-sans-v29-latin-500.woff') format('woff');
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        src: local(''), url('../fonts/open-sans/open-sans-v29-latin-700.woff2') format('woff2'), url('../fonts/open-sans/open-sans-v29-latin-700.woff') format('woff');
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 800;
+        src: local(''), url('../fonts/open-sans/open-sans-v29-latin-800.woff2') format('woff2'), url('../fonts/open-sans/open-sans-v29-latin-800.woff') format('woff');
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Open Sans';
+        font-style: italic;
+        font-weight: 400;
+        src: local(''), url('../fonts/open-sans/open-sans-v29-latin-italic.woff2') format('woff2'), url('../fonts/open-sans/open-sans-v29-latin-italic.woff') format('woff');
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Open Sans';
+        font-style: italic;
+        font-weight: 500;
+        src: local(''), url('../fonts/open-sans/open-sans-v29-latin-500italic.woff2') format('woff2'), url('../fonts/open-sans/open-sans-v29-latin-500italic.woff') format('woff');
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Open Sans';
+        font-style: italic;
+        font-weight: 700;
+        src: local(''), url('../fonts/open-sans/open-sans-v29-latin-700italic.woff2') format('woff2'), url('../fonts/open-sans/open-sans-v29-latin-700italic.woff') format('woff');
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Open Sans';
+        font-style: italic;
+        font-weight: 800;
+        src: local(''), url('../fonts/open-sans/open-sans-v29-latin-800italic.woff2') format('woff2'), url('../fonts/open-sans/open-sans-v29-latin-800italic.woff') format('woff');
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Cairo';
+        font-weight: 400;
+        src: local(''), url('../fonts/cairo/cairo-v14-latin-regular.woff2') format('woff2'), url('../fonts/cairo/cairo-v14-latin-regular.woff') format('woff');
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Cairo';
+        font-weight: 600;
+        src: local(''), url('../fonts/cairo/cairo-v14-latin-600.woff2') format('woff2'), url('../fonts/cairo/cairo-v14-latin-600.woff') format('woff');
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Cairo';
+        font-weight: 700;
+        src: local(''), url('../fonts/cairo/cairo-v14-latin-700.woff2') format('woff2'), url('../fonts/cairo/cairo-v14-latin-700.woff') format('woff');
+        font-display: swap;
+    }
+    .link {
+        @apply relative font-medium text-stiletto-500 hover:underline;
+    }
+}
