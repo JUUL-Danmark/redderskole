@@ -782,16 +782,6 @@ header {
   margin-right: 0.25rem;
 }
 
-.my-2\.5 {
-  margin-top: 0.625rem;
-  margin-bottom: 0.625rem;
-}
-
-.my-2 {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
 .my-5 {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
@@ -825,16 +815,12 @@ header {
   margin-top: 1rem;
 }
 
-.mt-3 {
-  margin-top: 0.75rem;
-}
-
-.ml-4 {
-  margin-left: 1rem;
-}
-
 .mt-5 {
   margin-top: 1.25rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
 }
 
 .mb-5 {
@@ -969,14 +955,6 @@ header {
 
 .resize {
   resize: both;
-}
-
-.list-inside {
-  list-style-position: inside;
-}
-
-.list-disc {
-  list-style-type: disc;
 }
 
 .grid-cols-1 {
@@ -1466,12 +1444,12 @@ header {
 }
 
 @media (min-width: 1024px) {
-  .lg\:col-start-1 {
-    grid-column-start: 1;
-  }
-
   .lg\:col-start-2 {
     grid-column-start: 2;
+  }
+
+  .lg\:col-start-1 {
+    grid-column-start: 1;
   }
 
   .lg\:row-start-1 {
